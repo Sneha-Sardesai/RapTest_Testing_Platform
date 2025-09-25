@@ -1,1 +1,160 @@
+LOGIN PAGE CSS -
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#D3D3D3;
+    font-family: Arial, sans-serif;
+}
 
+#brand {
+    font-weight: 700;
+    font-size: 50px;
+    font-family: "URW Chancery L", cursive;
+    margin: 40px 0;
+    margin-left: 60px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin: 0 60px;
+    min-height: 80vh; 
+}
+
+#login_pic {
+    height: 35rem;
+    width: 30rem;
+    background-image: url("login page pic final.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#welcome {
+    background-color: aqua; 
+    color: black;
+    border-radius: 10px;
+    padding: 40px;
+    width: 28rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+#welcome h2 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+#welcome p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+#welcome a {
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+}
+
+.options a {
+    font-size: 0.9rem;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    
+}
+
+button:hover {
+    background-color: #e6e6e6;
+}
+
+SIGN UP PAGE CSS - 
+*{
+    margin: 0;
+    padding: 0;
+    background-color:#D3D3D3;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+
+}
+.signbox{
+    height:650px;
+    width:500px;
+   text-align: center;
+   border:5px solid black;
+   margin: 50px;
+   padding: 20px;
+   font-size:2rem;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    font-size:20px;
+    padding: 40px;
+    text-align:left;
+}
+
+label{
+    color:red;
+}
+
+h4{
+    color:black;
+}
+
+#signupbutton{
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
