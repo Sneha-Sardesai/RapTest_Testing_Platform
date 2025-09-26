@@ -1,0 +1,51 @@
+/* SIGN UP PAGE CSS -  */
+*{
+    margin: 0;
+    padding: 0;
+    background-color:#D3D3D3;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+
+
+}
+.signbox{
+    height:650px;
+    width:500px;
+   text-align: center;
+   border:5px solid black;
+   margin: 50px;
+   padding: 20px;
+   font-size:2rem;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    font-size:20px;
+    padding: 40px;
+    text-align:left;
+}
+
+label{
+    color:red;
+}
+
+h4{
+    color:black;
+}
+
+#signupbutton{
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
