@@ -1,113 +1,124 @@
-LOGIN PAGE HTML -
-
+HOME PAGE HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="home.css">
 </head>
 <body>
-    <div id="brand">RAPTEST</div>
-    <div id="container">
-        <div id="login_pic"></div>
-
-        <div id="welcome">
-            <h2>Welcome Back!</h2>
-            <p>Don't have an account yet? <a href="signup_page.html">Sign Up</a></p>
-
-            <form>
-                <label for="username">Username</label>
-                <input type="text" id="username" placeholder="Enter your username">
-
-                <label for="password">Password</label>
-                <input type="password" id="password" placeholder="Enter your password">
-
-                <div class="options">
-                    <label><input type="checkbox"> Keep me logged in</label>
-                    <a href="#">Forgot Password?</a>
-                </div>
-
-                <button type="submit">Login</button>
-            </form>
+    <div id="navbar">
+        <div class="logo-container">
+            <div id="logo_pic"></div>
+            <div id="logo">RAPTEST</div>
+        </div>
+        <div class="nav-links">
+            <div class="navitems" href="home.html">Home</div>
+            <div class="navitems">Subjects</div>
+            <div class="navitems">Previous year papers</div>
+            <div class="navitems">Contact</div>
+            <div class="navitems"><i class="fa-solid fa-user"></i></div>
         </div>
     </div>
-</body>
-</html>
 
-
-SIGN UP PAGE HTML -
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
-    <link rel="stylesheet" href="signup.css">
-</head>
-<body>
-    <div class="signbox" id="mainbox">
-    <h4> Create Account </h4>
-    <form>
-     <label for="firstname">Enter First Name</label>
-     <input type="text" id="firstname" placeholder="First Name">
-     <br>
-     <br>
-     <label for="lastname">Enter Last Name</label>
-     <input type="text" id="lastname" placeholder="Last Name">
-     <br>
-     <br>
-     <label for="email">Enter Email Adress</label>
-     <input type="text" id="email" placeholder="email">
-     <br>
-     <br>
-    <label for="username">Create Username</label>
-    <input type="text" id="username" placeholder="username">
-     <br>
-     <br>
-    <label for="pwd">Create Password</label>
-    <input type="text" id="pwd" placeholder="password">
-     <br>
-     <br>
-    </form>
-    <button id="signupbutton">Create</button>
-
-LOGIN PAGE
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div id="brand">RAPTEST</div>
-    <div id="container">
-        <div id="login_pic"></div>
-
-        <div id="welcome">
-            <h2>Welcome Back!</h2>
-            <p>Don't have an account yet? <a href="signup_page.html">Sign Up</a></p>
-
-            <form>
-                <label for="username">Username</label>
-                <input type="text" id="username" placeholder="Enter your username">
-
-                <label for="password">Password</label>
-                <input type="password" id="password" placeholder="Enter your password">
-
-                <div class="options">
-                    <label><input type="checkbox"> Keep me logged in</label>
-                    <a href="#">Forgot Password?</a>
-                </div>
-
-                <button type="submit">Login</button>
-            </form>
+    <div class="home">
+         <div class="intropara">
+            <h1>MASTER YOUR</h1>
+            <h1>COMPETITIVE EXAMS</h1>
+            <p>Practice with thousands of questions, take mock tests</p>
+            <p>and track your progress with our comprehensive</p> 
+            <p>quiz platform designed for competitive exams</p>
+        </div>
+        <div id="home_pic"></div>
+    </div>
+    <div class="features">
+    <div id="heading">
+        <h2>Why choose RAPTEST?</h2>
+        <p>Our platform is designed with cutting-edge technology to provide the most effective and engaging exam preparation experience.</p>
+    </div>
+    
+    <div class="points-container">
+        <div class="point" id="p1">
+            <h3>Exam specific practice</h3>
+            <p>Tailored content for JEE MAINS and JEE Advanced and other exams</p>
+        </div>
+        <div class="point" id="p2">
+            <h3>Detailed Analytics</h3>
+            <p>Track your progress with comprehensive reports.</p>
+        </div>
+        <div class="point" id="p3">
+            <h3>Instant learning</h3>
+            <p>Get immediate feedback with detailed explanations for every question you attempt</p>
         </div>
     </div>
+</div>
+<br>
+<br>
+<div class="exams">
+   <div id="heading_exam">
+    <h2>Choose Your Exam Categrory</h2>
+    <p>Comprehensive preparation materials for all major competitive examinations in India.</p>
+   </div>
+   
+    <div class="exams-container">
+        <div class="exam" id="e1">
+            <h3>JEE MAINS</h3>
+            <p>Subjects - Physics|Chemistry|Maths</p>
+            <button>Start Practice -></button>
+        </div>
+        <div class="exam" id="e2">
+            <h3>JEE ADVANCED</h3>
+            <p>Subjects - Physics|Chemistry|Maths</p>
+            <button>Start Practice -></button>
+        </div>
+        <div class="exam" id="e3">
+            <h3>SITEEE</h3>
+            <p>Subjects - Physics|Chemistry|Maths</p>
+            <button>Start Practice -></button>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<br>
+
+
+<footer class="footer">
+  <div class="footer-container">
+
+    
+    <div class="footer-section brand">
+      <h2>RAPTEST</h2>
+      <p>Your trusted platform for competitive exam practice.</p>
+    </div>
+
+   
+    <div class="footer-section links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Subjects</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    
+    <div class="footer-section contact">
+      <h3>Contact Us</h3>
+      <p>Email: support@raptest.com</p>
+      <p>Phone: +91 98765 43210</p>
+    </div>
+
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 RAPTEST. All Rights Reserved.</p>
+  </div>
+</footer>
+
+
 </body>
 </html>
-
 
